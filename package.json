@@ -1,0 +1,17 @@
+{
+  "name": "@tikatuka/logo",
+  "version": "1.0.0",
+  "privat": true,
+  "description": "Tikatuka Logo",
+  "main": "tikatuka.svg",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tikatuka/logo.git"
+  },
+  "author": "Nico Lindemann <nico.lindemann@proux.net>",
+  "license": "CC BY-NC-ND 4.0",
+  "bugs": {
+    "url": "https://github.com/tikatuka/logo/issues"
+  },
+  "homepage": "https://github.com/tikatuka/logo#readme"
+}
