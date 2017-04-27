@@ -1,17 +1,33 @@
 {
   "name": "@tikatuka/logo",
-  "version": "1.0.0",
   "privat": true,
   "description": "Tikatuka Logo",
   "main": "tikatuka.svg",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tikatuka/logo.git"
+    "url": "https://github.com/tikatuka/logo.git"
   },
   "author": "Nico Lindemann <nico.lindemann@proux.net>",
   "license": "CC BY-NC-ND 4.0",
   "bugs": {
     "url": "https://github.com/tikatuka/logo/issues"
   },
-  "homepage": "https://github.com/tikatuka/logo#readme"
+  "homepage": "https://github.com/tikatuka/logo#readme",
+  "scripts": {
+    "semantic-release": "semantic-release pre && semantic-release post"
+  },
+  "devDependencies": {
+    "@nulliel/last-release-git-tag": "^1.0.1",
+    "@semantic-release/release-notes-generator": "^2.0.0",
+    "semantic-release": "^6.3.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "release": {
+    "getLastRelease": "./node_modules/@nulliel/last-release-git-tag",
+    "generateNotes": "./node_modules/@semantic-release/release-notes-generator/dist"
+  }
 }
