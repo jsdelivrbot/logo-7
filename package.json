@@ -1,5 +1,6 @@
 {
   "name": "@tikatuka/logo",
+  "version": "1.0.0",
   "privat": true,
   "description": "Tikatuka Logo",
   "main": "tikatuka.svg",
